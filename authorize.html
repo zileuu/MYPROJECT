@@ -1,0 +1,59 @@
+<html lang="html5">
+  <head>
+    <title>Booking System</title>
+    <style type="text/css">
+      body {
+        background-color: #ffffc0;
+        font-family: sans-serif;
+      }
+	  .search-result-item {
+		border: 1px solid gainsboro;
+		padding: 20px;
+	  }
+    </style>
+  </head>
+  <body>
+    <h1>El's Restaurant</h1>
+    <h2>Search for a avaibility:</h2>
+    <p>
+     Location:
+      <input id="theDest" />
+      Date:
+      <input id="theDate" />
+      <input type="button" id="btnFlightSearch" value="Search!" />
+    </p>
+    <div id="searchResults"></div>
+    <h2>Find your details</h2>
+    <p>
+      Table number:<br />
+      <input id="fNumber" /><br />
+      Location<br />
+      <input id="destCity" /><br />
+      Date: <br />
+      <input id="theDate2" /><br />
+     Time:<br />
+      <input id="departTime" /><br />
+      How long plan to stay:<br />
+      <input id="arriveTime" /><br />
+
+      Number of seats: <br />
+      <input id="numSeats" /><br />
+      <input type="button" id="btnFlightAdd" value="Add!" />
+    </p>
+    <div id="flightAddStatus"></div>
+    <h2>Login:</h2>
+    <p>
+      Username:
+      <input id="user" />
+      Password:
+      <input id="pass" type="password" />
+      <input type="button" id="btnLogin" value="Login!" />
+    </p>
+    <div id="loginStatus"></div>
+    <script type="text/javascript" src="client.js"></script>
+
+</body>
+
+
+
+</html>
